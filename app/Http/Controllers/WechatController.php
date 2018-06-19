@@ -43,28 +43,29 @@ class WechatController extends Controller
             //Log::info($message);
             switch ($message['MsgType']) {
                 case 'event':
-                    return '收到事件消息';
+                    if($message['Event'] == 'subscribe'){
+                        return '微信最大在线观看电影平台，最新院线大片免费看，输入电影【关键字】即可获取最新电影，上万部院线大片资源（包括优酷/土豆/腾讯/乐视/搜狐等所有VIP影视全部免费看），可能是微信上最有温度的电影平台！<a href="http://dy.zhangxiaoyao.cn/index.php">进入首页</a>';
+                    }
+//                    return '收到事件消息';
                     break;
                 case 'text':
-return 'nihao';
-break;
-                    Log::info($message);
+//                    Log::info($message);
                     if ($message['Content'] == '陆珍') {
                         return 'https://luzhen.zhangxiaoyao.cn/love';
                     }
-			
-		    $items = [
-    new NewsItem([
-        'title'       => '测试',
-        'description' => '不要忘记分析',
-        'url'         => 'http://dy.zhangxiaoyao.cn',
-        'image'       => 'http://dy.zhangxiaoyao.cn/images/sologo.png',
-        // ...
-    ]),
-    // ...
-];
-$news = new News($items);
-return $news;
+
+                    $items = [
+                        new NewsItem([
+                            'title' => '',
+                            'description' => '《' . $message['Content'] . '》,不要忘记分享哦',
+                            'url' => 'http://dy.zhangxiaoyao.cn/seacher.php?wd=' . $message['Content'],
+                            'image' => 'https://luzhen.zhangxiaoyao.cn/img/search.jpg',
+                            // ...
+                        ]),
+                        // ...
+                    ];
+                    $news = new News($items);
+                    return $news;
 //                    //图灵机器人
 //                    $curl = new Curl();
 //                    $result = $curl->post('http://www.tuling123.com/openapi/api', array('key' => 'aae2696cd2864f0da00cf6c20881b1f0', 'info' => $message['Content']));
@@ -79,37 +80,36 @@ return $news;
 //                    return $result->text;
 
                     //匹配数据库 电影资源
-             /**       $list = DB::table('80s')->where('name', 'like', '%' . $message['Content'] . '%')->limit(5)->get();
-                    if (count($list) > 1) {
-                        $item = "请精确查询:\n";
-                        foreach ($list as $l) {
-                            $item .= $l->name . "\n";
-                        }
-                        return $item;
-                    }
-                    $movie = DB::table('80s')->where('name', 'like', '%' . $message['Content'] . '%')->first();
-                    return $movie->name . "\n" . $movie->tv_download_link;
-
-*/
+                    /**       $list = DB::table('80s')->where('name', 'like', '%' . $message['Content'] . '%')->limit(5)->get();
+                     * if (count($list) > 1) {
+                     * $item = "请精确查询:\n";
+                     * foreach ($list as $l) {
+                     * $item .= $l->name . "\n";
+                     * }
+                     * return $item;
+                     * }
+                     * $movie = DB::table('80s')->where('name', 'like', '%' . $message['Content'] . '%')->first();
+                     * return $movie->name . "\n" . $movie->tv_download_link;
+                     */
                     break;
                 case 'image':
-                    return '收到图片消息';
+//                    return '收到图片消息';
                     break;
                 case 'voice':
-                    return '收到语音消息';
+//                    return '收到语音消息';
                     break;
                 case 'video':
-                    return '收到视频消息';
+//                    return '收到视频消息';
                     break;
                 case 'location':
-                    return '收到坐标消息';
+//                    return '收到坐标消息';
                     break;
                 case 'link':
-                    return '收到链接消息';
+//                    return '收到链接消息';
                     break;
                 // ... 其它消息
                 default:
-                    return '收到其它消息';
+//                    return '收到其它消息';
                     break;
             }
             // ...
@@ -156,7 +156,7 @@ return $news;
         $disk = Storage::disk('qiniu');
 
 // create a file
-        $a = $disk->put('test.jpg',file_get_contents('D:\web\zxy\blog\public\img\1.jpg'));
+        $a = $disk->put('test.jpg', file_get_contents('D:\web\zxy\blog\public\img\1.jpg'));
         dd($a);
 
 // check if a file exists
@@ -187,8 +187,6 @@ return $news;
 
 // get private url
         $url = $disk->privateDownloadUrl('folder/my_file.txt');
-
-
 
 
         dd('ok');
