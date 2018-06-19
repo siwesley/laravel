@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 3 from Scooter Software -->
+<BCCommands>
+	<TDirCompareCommands>
+		<Toolbars>
+			<SessionsBar Value="TopDock;;;0"/>
+			<DisplayFiltersBar Value="TopDock;;;89"/>
+			<ActionsBar Value="TopDock;;;283"/>
+			<EditBar Value="TopDock;;;438"/>
+			<FileFiltersBar Value="TopDock;;;608"/>
+		</Toolbars>
+	</TDirCompareCommands>
+	<THexCompareCommands>
+		<Toolbars>
+			<SessionsBar Value="TopDock;;;0"/>
+			<DisplayFiltersBar Value="TopDock;;;1"/>
+			<SearchBar Value="TopDock;;;2"/>
+			<ViewBar Value="TopDock;;;3"/>
+		</Toolbars>
+	</THexCompareCommands>
+	<TMP3CompareCommands>
+		<Toolbars>
+			<SessionsBar Value="TopDock;;;0"/>
+			<DisplayFiltersBar Value="TopDock;;;1"/>
+			<EditBar Value="TopDock;;;2"/>
+			<SearchBar Value="TopDock;;;3"/>
+			<ViewBar Value="TopDock;;;4"/>
+		</Toolbars>
+	</TMP3CompareCommands>
+	<TPixCompareCommands>
+		<Toolbars>
+			<SessionsBar Value="TopDock;;;0"/>
+			<DisplayFiltersBar Value="TopDock;;;1"/>
+			<EditBar Value="TopDock;;;2"/>
+			<ViewBar Value="TopDock;;;3"/>
+		</Toolbars>
+	</TPixCompareCommands>
+	<TTextCompareCommands>
+		<Toolbars>
+			<SessionsBar Value="TopDock;;;0"/>
+			<DisplayFiltersBar Value="TopDock;;;90"/>
+			<EditBar Value="TopDock;;;287"/>
+			<SearchBar Value="TopDock;;;350"/>
+			<ViewBar Value="TopDock;;1;0"/>
+		</Toolbars>
+	</TTextCompareCommands>
+</BCCommands>

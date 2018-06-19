@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 3 from Scooter Software -->
+<BCFtpProfiles>
+	<Items>
+		<Item>
+			<Host Value="112.124.17.7"/>
+			<Password Value="k3dqe3ty"/>
+			<SavePassword Value="True"/>
+			<Username Value="rpeng"/>
+		</Item>
+		<Item>
+			<Host Value="112.125.206.156"/>
+			<Password Value="UXY4fyFxVX0oZw=="/>
+			<SavePassword Value="True"/>
+			<Username Value="bdm0140770"/>
+		</Item>
+		<Item>
+			<Host Value="112.125.206.156"/>
+			<Password Value="WDRofX1wlnk="/>
+			<SavePassword Value="True"/>
+			<Username Value="bmu014156"/>
+		</Item>
+		<Item>
+			<Host Value="120.27.6.117"/>
+			<Password Value="QCw+Iy8pU2EuPnNidJQ="/>
+			<SavePassword Value="True"/>
+			<Username Value="biglampftp"/>
+		</Item>
+		<Item>
+			<Host Value="120.27.6.117"/>
+			<Password Value="k3dqe3tyRTs9"/>
+			<SavePassword Value="True"/>
+			<Username Value="pythonuser"/>
+		</Item>
+		<Item>
+			<Host Value="121.198.95.45"/>
+			<Password Value="l3dqenxymg=="/>
+			<SavePassword Value="True"/>
+			<Username Value="hmu128045"/>
+		</Item>
+		<Item>
+			<Host Value="121.199.23.80"/>
+			<Password Value="NHxtRSs8lX9FO3FU"/>
+			<Port Value="21000"/>
+			<SavePassword Value="True"/>
+			<Username Value="administrator"/>
+		</Item>
+		<Item>
+			<Host Value="121.199.23.80"/>
+			<Password Value="NHxtRSs8lX9FO3FU"/>
+			<Port Value="21000"/>
+			<SavePassword Value="True"/>
+			<Username Value="host"/>
+		</Item>
+		<Item>
+			<Host Value="121.42.58.86"/>
+			<Password Value="QCw+Iy8pUyk5IA=="/>
+			<SavePassword Value="True"/>
+			<Username Value="biglampftp"/>
+		</Item>
+		<Item>
+			<Host Value="121.42.82.89"/>
+			<Password Value="UDU8ISkmSighMSwi"/>
+			<SavePassword Value="True"/>
+			<Username Value="qxu1141880098"/>
+		</Item>
+		<Item>
+			<Host Value="121.42.82.89"/>
+			<Password Value="UDU8ISkmSighMSwi"/>
+			<SavePassword Value="True"/>
+			<Username Value="qxu1141880098FTP"/>
+		</Item>
+		<Item>
+			<Host Value="192.168.0.204"/>
+			<Password Value="VSQ3KDQsSj8oPiY="/>
+			<SavePassword Value="True"/>
+			<Username Value="ftpuser"/>
+		</Item>
+		<Item>
+			<Host Value="192.168.0.204"/>
+			<Password Value="VSQ3KDQsSj8oPiY="/>
+			<SavePassword Value="True"/>
+			<Username Value="wangzhipeng"/>
+		</Item>
+		<Item>
+			<Host Value="192.168.0.208"/>
+			<Password Value="k3dqe3ty"/>
+			<SavePassword Value="True"/>
+			<Username Value="root"/>
+		</Item>
+		<Item>
+			<Host Value="192.168.0.208"/>
+			<Password Value="VSQ3KDQsSj8oPiY="/>
+			<SavePassword Value="True"/>
+			<Username Value="wangzhipeng"/>
+		</Item>
+		<Item>
+			<Host Value="192.168.0.208\xinshop"/>
+			<Password Value="VSQ3KDQsSj8oPiY="/>
+			<SavePassword Value="True"/>
+			<Username Value="wangzhipeng"/>
+		</Item>
+		<Item>
+			<Host Value="192.168.0.88"/>
+			<Password Value="UTYpIDwwUGEuPyw="/>
+			<SavePassword Value="True"/>
+			<Username Value="root"/>
+		</Item>
+		<Item>
+			<Host Value="192.168.0.88"/>
+			<Password Value="UTYpIDwwUGEuPyw="/>
+			<Protocol Value="fpSFTP"/>
+			<SavePassword Value="True"/>
+			<Username Value="root"/>
+		</Item>
+		<Item>
+			<Host Value="192.30.137.107"/>
+			<Password Value="QyE0JiB1kXx5"/>
+			<SavePassword Value="True"/>
+			<Username Value="138547t"/>
+		</Item>
+		<Item>
+			<Host Value="192.30.137.107"/>
+			<Password Value="QyE0JiB1kXw="/>
+			<SavePassword Value="True"/>
+			<Username Value="admin"/>
+		</Item>
+		<Item>
+			<Host Value="204.45.85.187"/>
+			<Password Value="k3dqe3tyUT0/"/>
+			<SavePassword Value="True"/>
+			<Username Value="rpeng"/>
+		</Item>
+		<Item>
+			<Host Value="42.96.131.164"/>
+			<Password Value="k3dqe3tyVzs6"/>
+			<SavePassword Value="True"/>
+			<Username Value="rpeng"/>
+		</Item>
+		<Item>
+			<Host Value="42.96.131.164"/>
+			<Password Value="SHM0dyRxU3g="/>
+			<SavePassword Value="True"/>
+			<Username Value="website2"/>
+		</Item>
+		<Item>
+			<Host Value="42.96.131.164"/>
+			<Password Value="QXEudjdwR3w="/>
+			<SavePassword Value="True"/>
+			<Username Value="website3"/>
+		</Item>
+		<Item>
+			<Host Value="47.94.203.134"/>
+			<Password Value="OE1YQUk8Si4iSUBddA=="/>
+			<Protocol Value="fpSFTP"/>
+			<SavePassword Value="True"/>
+			<Username Value="root"/>
+		</Item>
+		<Item>
+			<Host Value="59.110.17.166"/>
+			<Password Value="Ric2PysqI319YXc="/>
+			<SavePassword Value="True"/>
+			<Username Value="ftpljqfm"/>
+		</Item>
+		<Item>
+			<Host Value="59.110.17.166"/>
+			<Password Value="Ti8/Oz4xUCo/fg=="/>
+			<SavePassword Value="True"/>
+			<Username Value="ljftpuser"/>
+		</Item>
+		<Item>
+			<Host Value="59.110.7.123"/>
+			<Password Value="Ric2PysqI319YXc="/>
+			<SavePassword Value="True"/>
+			<Username Value="ljqfftp"/>
+		</Item>
+		<Item>
+			<Host Value="dongtaoyao.com"/>
+			<Password Value="l3dqenxymg=="/>
+			<SavePassword Value="True"/>
+			<Username Value="hmu128045"/>
+		</Item>
+		<Item>
+			<Host Value="hz158392.ftp.aliapp.com"/>
+			<Password Value="ICw+Qy8pU1A="/>
+			<SavePassword Value="True"/>
+			<Username Value="hz158392"/>
+		</Item>
+		<Item>
+			<Host Value="qxu1141880098.my3w.com"/>
+			<Password Value="UDU8ISl1kXx5ZXc="/>
+			<SavePassword Value="True"/>
+			<Username Value="qxu1141880098"/>
+		</Item>
+	</Items>
+	<Global>
+		<AddKeysToCache Value="True"/>
+		<TrustedKeys>
+			<_0 Value="192.168.0.88:22=ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAx2Wyy1ni/OpVQyIbZH72fG/n5KK9Ub3EmedCI1pb0zqTmB6Bz981Lf3uDeE43+xtWvAV7eJO0LoPKLpQHwsWYDl/B+UQGU0FdsDFxrhc0LEtIIFbIUIlshRUpTMbsjVo9G6r1e9OLixfJp4HJ2qf222eRFr1TkNgEP9sTAW4F+tCpazbhvgf+5YwWoJL+61REIPLpRlm7W186seKsEPp859okplbcLB67aX9gVzGMw+Fo+KbBRJSmlbZzYnlmEmh9B+DM+eu/vgQHAfynVVcO+h+cw0hm/LroY0Z7gLrIOgmgCXlRjgU/cSalK0F9phcuL7b4Giu7Ys3IeiIKZr6Dw=="/>
+			<_1 Value="47.94.203.134:22=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDeu0OnKajjXtQLxRowlJDhD6pAPxFBeL+g6qL3xSeZvHCnXDyCW98gDTIi7jLN4F/hyzo8vFj9iIjxXmWhT7/UxxiorpfOO+KR4m+IWeKvsqDFvx4gvL6rh8SdKWbSwzF5+k1jQaP3eVWdhbZ1+PGrLygBY8c1yEUqiXW7FxsKnDkthRRkn4Sw0Ls+QfD4nMUlOgN8nPx0bD7c0ojhu/57QFmN/StIcdvfrcDAa29wbeYJR9VnpsxHYtg52kWDrRsu5md85dsvhWmVaD4ZjoRYIKy6aTrwXKlg5NvwZW1LwgUe3YlY8w7M/Fi0ueoP1o0wr9GsF/+3H7i0e5AWSaQh"/>
+		</TrustedKeys>
+	</Global>
+</BCFtpProfiles>

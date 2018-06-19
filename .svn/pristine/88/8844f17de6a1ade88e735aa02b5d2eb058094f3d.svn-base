@@ -1,0 +1,147 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * File: WechatController.php
+ * User: zxy
+ * Date: 2017/7/5
+ * Time: 16:07
+ */
+
+namespace App\Http\Controllers;
+
+use App\Messages;
+use App\models\Area;
+use EasyWeChat\Message\Text;
+use Illuminate\Support\Facades\Log;
+use \Curl\Curl;
+use EasyWeChat\Foundation\Application;
+use EasyWeChat\Message\Image;
+use GuzzleHttp\Client;
+use GuzzleHttp\Exception\GuzzleException;
+use Illuminate\Support\Facades\Storage;
+
+
+class WechatController extends Controller
+{
+
+    /**
+     * 处理微信的请求消息
+     *
+     * @return string
+     */
+    public function serve()
+    {
+        $wechat = app('wechat.official_account');
+
+        $wechat->server->push(function ($message) {
+            //Log::info($message);
+            switch ($message['MsgType']) {
+                case 'event':
+                    return '收到事件消息';
+                    break;
+                case 'text':
+                    Log::info($message);
+                    if ($message['Content'] == '陆珍') {
+                        return 'https://luzhen.zhangxiaoyao.cn/love';
+                    }
+                    //图灵机器人
+                    $curl = new Curl();
+                    $result = $curl->post('http://www.tuling123.com/openapi/api', array('key' => 'aae2696cd2864f0da00cf6c20881b1f0', 'info' => $message['Content']));
+                    //存数据库
+                    $msg_model = new Messages();
+                    $msg_model->openid = $message['FromUserName'];
+                    $msg_model->content = $message['Content'];
+
+                    $msg_model->message = $result->text;
+                    $msg_model->save();
+
+                    return $result->text;
+                    break;
+                case 'image':
+                    return '收到图片消息';
+                    break;
+                case 'voice':
+                    return '收到语音消息';
+                    break;
+                case 'video':
+                    return '收到视频消息';
+                    break;
+                case 'location':
+                    return '收到坐标消息';
+                    break;
+                case 'link':
+                    return '收到链接消息';
+                    break;
+                // ... 其它消息
+                default:
+                    return '收到其它消息';
+                    break;
+            }
+            // ...
+        });
+
+
+        return $wechat->server->serve();
+    }
+
+    public function ggg($w = 1,$n = 1){
+        $appcode = "68da5147ddfe4f94a6820f95e9377ee0";
+        $curl = new Curl();
+        $curl->setHeader('Authorization', 'APPCODE ' . $appcode);
+        $a = $curl->get("http://ali-city.showapi.com/areaName", array('level' => $w,'maxSize'=>20,'page'=>$n));
+        foreach($a->showapi_res_body->data as $v){
+            $item = new Area();
+            $item->provinceId = $v->provinceId;
+            if(!empty($v->simpleName)){
+                $item->simpleName = $v->simpleName;
+            }
+
+            $item->lon = $v->lon;
+            $item->areaCode = $v->areaCode;
+            $item->cityId = $v->cityId;
+            $item->b_id = $v->id;
+            $item->remark = $v->remark;
+            $item->prePinYin = $v->prePinYin;
+            $item->pinYin = $v->pinYin;
+            $item->parentId = $v->parentId;
+            $item->level = $v->level;
+            $item->areaName = $v->areaName;
+            $item->simplePy = $v->simplePy;
+            $item->zipCode = $v->zipCode;
+            $item->countyId = $v->countyId;
+            $item->lat = $v->lat;
+            $item->wholeName = $v->wholeName;
+            $item->save();
+        }
+    }
+
+    public function test()
+    {
+        $msg_model = new Messages();
+        $msg_model->openid = 123;
+        $msg_model->content = 123;
+
+        $msg_model->message = 222;
+        $msg_model->save();
+
+    }
+
+    public function menu()
+    {
+        $curl = new Curl();
+        $result = $curl->post('http://www.tuling123.com/openapi/api', array('key' => 'aae2696cd2864f0da00cf6c20881b1f0', 'info' => '什么时候发的消息？'));
+    }
+
+    public function image($url)
+    {
+
+        $client = new Client(['verify' => false]);  //忽略SSL错误
+        $file = '/var/www/html/blog/public/Upload/' . time() . '.jpg';
+        $response = $client->get($url, ['save_to' => $file]);  //保存远程url到文件
+        Log::info($response);
+        $wechat = app('wechat');
+        $a = $wechat->material_temporary->uploadImage($file);
+        Log::info($a);
+        return $a->media_id;
+    }
+}

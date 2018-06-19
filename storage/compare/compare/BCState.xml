@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 3 from Scooter Software -->
+<BCState>
+	<TBcState>
+		<FirstStartup Value="False"/>
+		<FormPosStr Value="412;58;1436;676;3"/>
+	</TBcState>
+	<TBrowseState>
+		<FormPosStr Value="667;278;1190;802"/>
+		<MRUFtpSites>
+			<_0 Value="ftp://ljftpuser@59.110.17.166:335/"/>
+			<_1 Value="ftp://ljqfftp@59.110.7.123:335/"/>
+			<_2 Value="ftp://ljqfftp@59.110.7.123/"/>
+			<_3 Value="ftp://ljftpuser@59.110.17.166/"/>
+			<_4 Value="sftp://root@47.94.203.134//var/www/html/blog"/>
+			<_5 Value="sftp://root@47.94.203.134/var/www/html"/>
+			<_6 Value="sftp://root@47.94.203.134//"/>
+			<_7 Value="ftp://biglampftp@121.42.58.86/"/>
+			<_8 Value="ftp://hz158392@hz158392.ftp.aliapp.com/"/>
+		</MRUFtpSites>
+	</TBrowseState>
+	<TCheckForUpdatesState>
+		<Build Value="18981"/>
+		<FormPosStr Value="652;347;1205;733"/>
+		<LastChecked Value="2017-09-07 10:27:53"/>
+	</TCheckForUpdatesState>
+	<TDirCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="D:\web\zxy\blog"/>
+			<_1 Value="ftp://ljqfftp@59.110.7.123:335/"/>
+			<_2 Value="D:\web\ljqf"/>
+			<_3 Value="ftp://ljqfftp@59.110.7.123/"/>
+			<_4 Value="ftp://ftpljqfm@59.110.17.166/"/>
+			<_5 Value="D:\web\zxy"/>
+			<_6 Value="D:\"/>
+			<_7 Value="D:\web"/>
+			<_8 Value="D:\web\ljqf\store_v2.0"/>
+		</LeftMRUSpecs>
+		<LogHeight Value="64"/>
+		<RightMRUSpecs>
+			<_0 Value="sftp://root@47.94.203.134//var/www/html/blog"/>
+			<_1 Value="ftp://ljftpuser@59.110.17.166:335/"/>
+			<_2 Value="ftp://ljqfftp@59.110.7.123:335/"/>
+			<_3 Value="ftp://ljftpuser@59.110.17.166/"/>
+			<_4 Value="ftp://ljqfftp@59.110.7.123/"/>
+			<_5 Value="ftp://ftpljqfm@59.110.17.166/"/>
+			<_6 Value="sftp://root@47.94.203.134//"/>
+			<_7 Value="sftp://root@47.94.203.134"/>
+			<_8 Value="ftp://biglampftp@121.42.58.86/xxjjdd"/>
+		</RightMRUSpecs>
+		<SessionFormPosStr Value="659;214;1260;826"/>
+	</TDirCompareState>
+	<TDirFindFilenameState>
+		<FindItems>
+			<_0 Value="MaintenanceServiceModel"/>
+		</FindItems>
+	</TDirFindFilenameState>
+	<TDirOpErrorsState>
+		<FormPosStr Value="454;152;911;576"/>
+	</TDirOpErrorsState>
+	<TFileFormatManagerState>
+		<FormPosStr Value="453;198;1405;881"/>
+	</TFileFormatManagerState>
+	<TFtpOpenState>
+		<FormPosStr Value="436;102;930;625"/>
+	</TFtpOpenState>
+	<TFtpSaveState>
+		<FormPosStr Value="606;182;1252;821"/>
+		<MRUSpecs>
+			<_0 Value="sftp://root@47.94.203.134//var/www/html/blog/resources/views/admin/home.blade.php"/>
+			<_1 Value="sftp://root@47.94.203.134//var/www/html/blog/resources/views/admin/msg.blade.php"/>
+		</MRUSpecs>
+	</TFtpSaveState>
+	<THexCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="E:\dbopen\accountinfo\zecaifu.pyc"/>
+			<_1 Value="E:\dbopen\updatedb\updatedb\spiders\xrxzcup.pyc"/>
+			<_2 Value="E:\dbopen\accountinfo\jcw.pyc"/>
+			<_3 Value="E:\dbopen\dirbot-master\dirbot\spiders\tongqianzc.pyc"/>
+			<_4 Value="E:\dbopen\accountinfo\juchuangjinrong.pyc"/>
+			<_5 Value="E:\dbopen\updatedb\updatedb\spiders\jcjrnewup.pyc"/>
+			<_6 Value="E:\dbopen\dirbot-master\dirbot\spiders\zecaifu.pyc"/>
+			<_7 Value="E:\dbopen\dirbot-master\dirbot\spiders\xunxiaozc.pyc"/>
+			<_8 Value="E:\dbopen\dirbot-master\dirbot\spiders\xfami.pyc"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Consolas;10"/>
+		</MRUFonts>
+		<RightMRUSpecs>
+			<_0 Value="ftp://pythonuser@120.27.6.117/accountinfo/zecaifu.pyc"/>
+			<_1 Value="ftp://pythonuser@120.27.6.117/updatedb/updatedb/spiders/xrxzcup.pyc"/>
+			<_2 Value="ftp://pythonuser@120.27.6.117/accountinfo/jcw.pyc"/>
+			<_3 Value="ftp://pythonuser@120.27.6.117/dirbot-master/dirbot/spiders/tongqianzc.pyc"/>
+			<_4 Value="ftp://pythonuser@120.27.6.117/accountinfo/juchuangjinrong.pyc"/>
+			<_5 Value="ftp://pythonuser@120.27.6.117/updatedb/updatedb/spiders/jcjrnewup.pyc"/>
+			<_6 Value="ftp://pythonuser@120.27.6.117/dirbot-master/dirbot/spiders/zecaifu.pyc"/>
+			<_7 Value="ftp://pythonuser@120.27.6.117/dirbot-master/dirbot/spiders/xunxiaozc.pyc"/>
+			<_8 Value="ftp://pythonuser@120.27.6.117/dirbot-master/dirbot/spiders/xfami.pyc"/>
+		</RightMRUSpecs>
+	</THexCompareState>
+	<THomeState>
+		<SessionType Value="TDirCompareSession"/>
+	</THomeState>
+	<TMP3CompareState>
+		<MRUFonts>
+			<_0 Value="微软雅黑;9;;1"/>
+		</MRUFonts>
+	</TMP3CompareState>
+	<TOpDeleteState>
+		<UseRecycleBin Value="True"/>
+	</TOpDeleteState>
+	<TPixCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="D:\web\zxy\blog\public\AdminLTE\dist\img\loading.gif"/>
+			<_1 Value="D:\web\ljqf\Public\Weixin\images\package_06.png"/>
+			<_2 Value="D:\web\ljqf\Upload\tmp\1319\170815103551.jpg"/>
+			<_3 Value="D:\web\ljqf\Public\Weixin\images\24小时救援.png"/>
+			<_4 Value="D:\web\ljqf\Public\Weixin\images\repeat.png"/>
+			<_5 Value="D:\web\ljqf\Public\Weixin\images\expired.png"/>
+			<_6 Value="D:\web\ljqf\Public\Weixin\images\cry.png"/>
+			<_7 Value="E:\web\dbopen\Public\Dbopen\Styles_v1\img\bg.jpg"/>
+			<_8 Value="E:\web\dati\attachment\images\global\avatars\avatar_12.jpg"/>
+		</LeftMRUSpecs>
+		<RightMRUSpecs>
+			<_0 Value="ftp://ljqfftp@59.110.7.123/Public/Weixin/images/package_06.png"/>
+			<_1 Value="ftp://ljqfftp@59.110.7.123/Upload/tmp/1319/170815103551.jpg"/>
+			<_2 Value="sftp://root@47.94.203.134//var/www/html/blog/storage/3.jpg"/>
+			<_3 Value="ftp://ftpljqfm@59.110.17.166/Public/Weixin/images/24小时救援.png"/>
+			<_4 Value="ftp://ftpljqfm@59.110.17.166/Public/Weixin/images/repeat.png"/>
+			<_5 Value="ftp://ftpljqfm@59.110.17.166/Public/Weixin/images/expired.png"/>
+			<_6 Value="ftp://ftpljqfm@59.110.17.166/Public/Weixin/images/cry.png"/>
+			<_7 Value="ftp://biglampftp@120.27.6.117/dati/attachment/images/global/avatars/avatar_12.jpg"/>
+			<_8 Value="ftp://biglampftp@120.27.6.117/dati/attachment/headimg_21.jpg"/>
+		</RightMRUSpecs>
+	</TPixCompareState>
+	<TTextCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="D:\web\ljqf\Application\Weixin\View\AdminLTE\Appointment\upkeep.html"/>
+			<_1 Value="D:\web\ljqf\Application\Weixin\View\AdminLTE\Appointment\maintain.html"/>
+			<_2 Value="D:\web\ljqf\Application\Store\View\AdminLTE\Order\billing.html"/>
+			<_3 Value="D:\web\zxy\blog\composer.json"/>
+			<_4 Value="D:\web\ljqf\Application\Weixin\Controller\AppointmentController.class.php"/>
+			<_5 Value="ftp://ljqfftp@59.110.7.123:335/Application/Common/Event/AppointmentEvent.class.php"/>
+			<_6 Value="D:\web\zxy\blog\config\app.php"/>
+			<_7 Value="D:\web\zxy\blog\routes\web.php"/>
+			<_8 Value="D:\web\zxy\blog\resources\views\love.blade.php"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Consolas;10"/>
+		</MRUFonts>
+		<RightMRUSpecs>
+			<_0 Value="ftp://ljqfftp@59.110.7.123:335/Application/Weixin/View/AdminLTE/Appointment/upkeep.html"/>
+			<_1 Value="ftp://ljqfftp@59.110.7.123:335/Application/Weixin/View/AdminLTE/Appointment/maintain.html"/>
+			<_2 Value="ftp://ljqfftp@59.110.7.123:335/Application/Store/View/AdminLTE/Order/billing.html"/>
+			<_3 Value="sftp://root@47.94.203.134//var/www/html/blog/composer.json"/>
+			<_4 Value="ftp://ljqfftp@59.110.7.123:335/Application/Weixin/Controller/AppointmentController.class.php"/>
+			<_5 Value="ftp://ljftpuser@59.110.17.166:335/Application/Common/Event/AppointmentEvent.class.php"/>
+			<_6 Value="sftp://root@47.94.203.134//var/www/html/blog/config/app.php"/>
+			<_7 Value="sftp://root@47.94.203.134//var/www/html/blog/routes/web.php"/>
+			<_8 Value="sftp://root@47.94.203.134//var/www/html/blog/resources/views/love.blade.php"/>
+		</RightMRUSpecs>
+		<ShowItemNum Value="True"/>
+	</TTextCompareState>
+	<TTextFindState>
+		<CurSideOnly Value="False"/>
+		<FindItems>
+			<_0 Value="storepart"/>
+			<_1 Value="sale_search"/>
+			<_2 Value="daifu"/>
+			<_3 Value="代付"/>
+			<_4 Value="15034409678"/>
+			<_5 Value="Test"/>
+			<_6 Value="TestController"/>
+			<_7 Value="textController"/>
+			<_8 Value="当前到"/>
+		</FindItems>
+		<ReplaceItems>
+			<_0 Value="href=%22/goods_popup/"/>
+			<_1 Value="src=%22/images/"/>
+			<_2 Value="src=%22/css/"/>
+			<_3/>
+		</ReplaceItems>
+		<Sides Value="[fsRight]"/>
+		<Wrap Value="True"/>
+	</TTextFindState>
+	<TTipState>
+		<DontShowAgain Value="[tipFastRefresh]"/>
+	</TTipState>
+</BCState>

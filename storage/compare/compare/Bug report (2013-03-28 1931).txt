@@ -1,0 +1,402 @@
+date/time           : 2013-03-28, 19:31:39, 656ms
+operating system    : Windows NT New x64 Service Pack 1 build 7601
+system language     : Chinese (Simplified)
+system up time      : 5 minutes 56 seconds
+program up time     : 3 minutes 55 seconds
+processors          : 4x Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz
+physical memory     : 2947/4073 MB (free/total)
+free disk space     : (C:) 179.53 GB (G:) 298.48 GB
+display mode        : 1366x768, 32 bit
+process id          : $10e0
+allocated memory    : 49.94 MB
+executable          : BCompare.exe
+exec. date/time     : 2012-07-03 15:46
+version             : 3.3.5.15075
+compiled with       : Delphi 2007
+madExcept version   : 3.0i beta 2
+Pro edition         : True
+subversion revision : 15075
+callstack crc       : $70081550, $d35834b1, $ada4bfc0
+exception number    : 1
+exception class     : EAccessViolation
+exception message   : Access violation at address 00407F9A in module 'BCompare.exe'. Read of address 666E6F63.
+
+Main ($10e4):
+00407f9a +006 BCompare.exe System           581   +0 @IntfCopy
+0089425f +053 BCompare.exe DirTree          887   +3 TDirTree.GetEntry
+0088fa80 +018 BCompare.exe DirSession       536   +1 TDirSession.GetEntry
+00a4801a +05a BCompare.exe ViewDir         1110   +5 TDirViewFrame.DoEnableControls
+00a3ba16 +072 BCompare.exe ViewDirSession  1030   +5 TDirSessionViewFrame.EnableControls
+00a3a124 +00c BCompare.exe ViewDirSession   556   +2 TDirSessionViewFrame.ActiveChanged
+0087f283 +01b BCompare.exe FrmView          937   +2 TViewForm.ActiveChanged
+004a6c65 +095 BCompare.exe Forms           4600  +11 TCustomForm.SetActiveControl
+004a6ce8 +03c BCompare.exe Forms           4618   +3 TCustomForm.DefocusControl
+004b9297 +017 BCompare.exe Controls        6561   +2 TWinControl.RemoveFocus
+004b84e1 +04d BCompare.exe Controls        6057   +9 TWinControl.Destroy
+004a2724 +028 BCompare.exe Forms           2364   +3 TScrollingWinControl.Destroy
+008b731f +083 BCompare.exe ViewBase         674  +12 TViewFrame.Destroy
+00881c42 +07a BCompare.exe ViewSessionBase  474  +11 TSessionViewFrame.Destroy
+00a39c58 +098 BCompare.exe ViewDirSession   460  +10 TDirSessionViewFrame.Destroy
+00a46a51 +01d BCompare.exe ViewDir          678   +2 TDirViewFrame.Destroy
+00404cb8 +008 BCompare.exe System           581   +0 TObject.Free
+0087ed9c +03c BCompare.exe FrmView          772   +4 TViewForm.Destroy
+0042d55f +047 BCompare.exe Classes                   TComponent.DestroyComponents
+004a156e +032 BCompare.exe Forms           1578   +3 DoneApplication
+00405b4d +021 BCompare.exe System           581   +0 @Halt0
+004ac1bc +3e0 BCompare.exe Forms           7788  +77 TApplication.WndProc
+0042e98c +014 BCompare.exe Classes                   StdWndProc
+779d0117 +02b ntdll.dll                              KiUserCallbackDispatcher
+76610d48 +016 USER32.dll                             CallWindowProcW
+005d7308 +0f0 BCompare.exe TntControls      605  +25 TWinControlTrap.DefWin32Proc
+0042e98c +014 BCompare.exe Classes                   StdWndProc
+76617945 +016 USER32.dll                             CallWindowProcA
+004bac4f +0a7 BCompare.exe Controls        7359  +25 TWinControl.DefaultHandler
+004a6bc6 +05a BCompare.exe Forms           4585   +7 TCustomForm.DefaultHandler
+005e68dc +07c BCompare.exe TntForms         390  +12 TTntForm.DefaultHandler
+004b6a17 +2bb BCompare.exe Controls        5161  +83 TControl.WndProc
+004bab83 +4fb BCompare.exe Controls        7327 +111 TWinControl.WndProc
+004a4b5b +553 BCompare.exe Forms           3514 +136 TCustomForm.WndProc
+006afdad +2ed BCompare.exe BcForms          834  +84 TBcForm.WndProc
+0087f1ba +036 BCompare.exe FrmView          913   +4 TViewForm.WndProc
+005d74b1 +085 BCompare.exe TntControls      666  +19 TWinControlTrap.WindowProc
+004ba290 +02c BCompare.exe Controls        7088   +3 TWinControl.MainWndProc
+0042e98c +014 BCompare.exe Classes                   StdWndProc
+76610d48 +016 USER32.dll                             CallWindowProcW
+005d7104 +048 BCompare.exe TntControls      554  +12 TWinControlTrap.Win32Proc
+0042e98c +014 BCompare.exe Classes                   StdWndProc
+779d0117 +02b ntdll.dll                              KiUserCallbackDispatcher
+004d6122 +056 BCompare.exe cMicroThreads    368   +6 FiberStartProc
+
+thread $10e8:
+767a33c8 +10 kernel32.dll  BaseThreadInitThunk
+
+thread $10f4 (TJobResourceThread):
+76480810 +092 KERNELBASE.dll                    WaitForSingleObjectEx
+767a118f +03e kernel32.dll                      WaitForSingleObjectEx
+767a1143 +00d kernel32.dll                      WaitForSingleObject
+00487d94 +04c BCompare.exe   SyncObjs   255 +14 THandleObject.WaitFor
+00991f40 +204 BCompare.exe   BcJobs    3011 +37 TJobResourceThread.Execute
+00476703 +02b BCompare.exe   madExcept          HookedTThreadExecute
+0042cc28 +034 BCompare.exe   Classes            ThreadProc
+00405c68 +028 BCompare.exe   System     581  +0 ThreadWrapper
+004765e5 +00d BCompare.exe   madExcept          CallThreadProcSafe
+0047664f +037 BCompare.exe   madExcept          ThreadExceptFrame
+767a33c8 +010 kernel32.dll                      BaseThreadInitThunk
+>> created by Main ($10e4) at:
+00991afa +01e BCompare.exe   BcJobs    2874  +1 TJobResourceThread.Create
+
+thread $11e0 (TJobWorkerThread):
+76480810 +92 KERNELBASE.dll                    WaitForSingleObjectEx
+767a118f +3e kernel32.dll                      WaitForSingleObjectEx
+767a1143 +0d kernel32.dll                      WaitForSingleObject
+00487d94 +4c BCompare.exe   SyncObjs   255 +14 THandleObject.WaitFor
+00991081 +6d BCompare.exe   BcJobs    2540 +11 TJobWorkerThread.Execute
+00476703 +2b BCompare.exe   madExcept          HookedTThreadExecute
+0042cc28 +34 BCompare.exe   Classes            ThreadProc
+00405c68 +28 BCompare.exe   System     581  +0 ThreadWrapper
+004765e5 +0d BCompare.exe   madExcept          CallThreadProcSafe
+0047664f +37 BCompare.exe   madExcept          ThreadExceptFrame
+767a33c8 +10 kernel32.dll                      BaseThreadInitThunk
+>> created by Main ($10e4) at:
+00990f83 +1b BCompare.exe   BcJobs    2499  +1 TJobWorkerThread.Create
+
+modules:
+00400000 BCompare.exe      3.3.5.15075        G:\soft\compare
+10000000 7zxa.dll          4.57.0.0           G:\soft\compare
+6ae00000 ieframe.dll       8.0.7601.17514     C:\Windows\SysWOW64
+6c050000 tiptsf.dll        6.1.7600.16385     C:\Program Files (x86)\Common Files\microsoft shared\ink
+6da50000 DUI70.dll         6.1.7600.16385     C:\Windows\system32
+6db10000 DUser.dll         6.1.7600.16385     C:\Windows\system32
+6db40000 explorerframe.dll 6.1.7601.17514     C:\Windows\system32
+732e0000 dwmapi.dll        6.1.7600.16385     C:\Windows\system32
+73300000 uxtheme.dll       6.1.7600.16385     C:\Windows\system32
+73380000 winmm.dll         6.1.7601.17514     C:\Windows\system32
+733c0000 OLEACC.dll        7.0.0.0            C:\Windows\SysWOW64
+73850000 winspool.drv      6.1.7601.17514     C:\Windows\system32
+73a00000 ntmarta.dll       6.1.7600.16385     C:\Windows\system32
+73a50000 Fwpuclnt.dll      6.1.7601.17514     C:\Windows\system32
+73a90000 PROPSYS.dll       7.0.7601.17514     C:\Windows\system32
+73c60000 wshtcpip.dll      6.1.7600.16385     C:\Windows\System32
+73c70000 comctl32.dll      6.10.7601.17514    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2
+73e10000 wkscli.dll        6.1.7601.17514     C:\Windows\system32
+73e20000 srvcli.dll        6.1.7601.17514     C:\Windows\system32
+73e40000 netutils.dll      6.1.7601.17514     C:\Windows\system32
+73e50000 netapi32.dll      6.1.7601.17514     C:\Windows\system32
+73ed0000 wsock32.dll       6.1.7600.16385     C:\Windows\system32
+73f70000 msimg32.dll       6.1.7600.16385     C:\Windows\system32
+73f80000 mswsock.dll       6.1.7601.17514     C:\Windows\system32
+73fc0000 version.dll       6.1.7600.16385     C:\Windows\system32
+75030000 mlang.dll         6.1.7600.16385     C:\Windows\system32
+75060000 unrar.dll         3.90.3.168         G:\soft\compare
+750a0000 olepro32.dll      6.1.7601.17514     C:\Windows\system32
+750c0000 c_iscii.dll       6.1.7601.17514     C:\Windows\system32
+750d0000 c_g18030.dll      6.1.7600.16385     C:\Windows\system32
+75110000 c_is2022.dll      6.1.7600.16385     C:\Windows\system32
+75120000 mpr.dll           6.1.7600.16385     C:\Windows\system32
+75510000 CRYPTBASE.dll     6.1.7600.16385     C:\Windows\syswow64
+75520000 SspiCli.dll       6.1.7601.17514     C:\Windows\syswow64
+75580000 iertutil.dll      8.0.7601.17514     C:\Windows\syswow64
+75780000 WS2_32.dll        6.1.7601.17514     C:\Windows\syswow64
+757c0000 CLBCatQ.DLL       2001.12.8530.16385 C:\Windows\syswow64
+75850000 SHLWAPI.dll       6.1.7601.17514     C:\Windows\syswow64
+75910000 WLDAP32.dll       6.1.7601.17514     C:\Windows\syswow64
+75960000 CRYPT32.dll       6.1.7601.17514     C:\Windows\syswow64
+75b10000 sechost.dll       6.1.7600.16385     C:\Windows\SysWOW64
+75b30000 oleaut32.dll      6.1.7601.17514     C:\Windows\syswow64
+75bc0000 urlmon.dll        8.0.7601.17514     C:\Windows\syswow64
+75d00000 msvcrt.dll        7.0.7600.16385     C:\Windows\syswow64
+75db0000 MSASN1.dll        6.1.7601.17514     C:\Windows\syswow64
+75dc0000 NSI.dll           6.1.7600.16385     C:\Windows\syswow64
+75dd0000 RPCRT4.dll        6.1.7601.17514     C:\Windows\syswow64
+75ec0000 PSAPI.DLL         6.1.7600.16385     C:\Windows\syswow64
+75ed0000 imm32.dll         6.1.7601.17514     C:\Windows\syswow64
+75f30000 LPK.dll           6.1.7600.16385     C:\Windows\syswow64
+75f40000 wininet.dll       8.0.7601.17514     C:\Windows\syswow64
+76040000 ADVAPI32.dll      6.1.7601.17514     C:\Windows\syswow64
+760e0000 GDI32.dll         6.1.7601.17514     C:\Windows\syswow64
+76170000 ole32.dll         6.1.7601.17514     C:\Windows\syswow64
+76470000 KERNELBASE.dll    6.1.7601.17514     C:\Windows\syswow64
+764f0000 MSCTF.dll         6.1.7600.16385     C:\Windows\syswow64
+765c0000 WINTRUST.dll      6.1.7601.17514     C:\Windows\syswow64
+765f0000 USER32.dll        6.1.7601.17514     C:\Windows\syswow64
+766f0000 USP10.dll         1.626.7601.17514   C:\Windows\syswow64
+76790000 kernel32.dll      6.1.7601.17514     C:\Windows\syswow64
+768a0000 shell32.dll       6.1.7601.17514     C:\Windows\syswow64
+774f0000 comdlg32.dll      6.1.7601.17514     C:\Windows\syswow64
+779c0000 ntdll.dll         6.1.7601.17514     C:\Windows\SysWOW64
+
+processes:
+0000 Idle                      0 0   0
+0004 System                    0 0   0
+011c smss.exe                  0 0   0
+01b0 csrss.exe                 0 0   0
+01f8 wininit.exe               0 0   0
+0210 csrss.exe                 1 0   0
+0238 services.exe              0 0   0
+0250 lsass.exe                 0 0   0
+0258 lsm.exe                   0 0   0
+029c winlogon.exe              1 0   0
+02f0 svchost.exe               0 0   0
+0370 svchost.exe               0 0   0
+03b0 atiesrxx.exe              0 0   0
+03f0 svchost.exe               0 0   0
+0130 svchost.exe               0 0   0
+01b8 svchost.exe               0 0   0
+0158 audiodg.exe               0 0   0
+0428 svchost.exe               0 0   0
+0470 svchost.exe               0 0   0
+04d8 atieclxx.exe              1 0   0
+04ec AsLdrSrv.exe              0 0   0
+05b8 dwm.exe                   1 9   2   normal
+05d0 explorer.exe              1 527 253 normal
+0614 GFNEXSrv.exe              0 0   0
+066c spoolsv.exe               0 0   0
+0690 taskhost.exe              1 26  20  normal
+06a4 svchost.exe               0 0   0
+0704 armsvc.exe                0 0   0
+074c httpd.exe                 0 0   0
+0758 taskeng.exe               1 9   3   normal
+079c ATKOSD2.exe               1 21  14  below normal C:\Program Files (x86)\ASUS\ATK Package\ATKOSD2
+07c4 DgService.exe             0 0   0
+0500 RIconMan.exe              0 0   0
+05fc HeciServer.exe            0 0   0
+0140 mysqld.exe                0 0   0
+084c HControl.exe              1 0   0
+088c SGTool.exe                0 0   0
+08ec httpd.exe                 0 0   0
+0b18 RAVCpl64.exe              1 54  22  normal
+0b30 RAVBg64.exe               1 17  14  normal
+0b58 ETDCtrl.exe               1 325 123 above normal
+0b6c ApacheMonitor.exe         1 19  10  normal       E:\apache\bin
+0bf4 WmiPrvSE.exe              0 0   0
+0be8 MOM.exe                   1 10  9   normal
+04c0 DMedia.exe                1 13  6   normal       C:\Program Files (x86)\ASUS\ATK Package\ATK Media
+04bc HControlUser.exe          1 15  5   normal       C:\Program Files (x86)\ASUS\ATK Package\ATK Hotkey
+0a20 RP24G_Config.exe          1 186 60  normal       C:\Program Files (x86)\Rapoo\RP24G
+04cc LedStatus.exe             1 38  8   normal       C:\Program Files (x86)\Rapoo\RP24G
+0b74 ATKOSD.exe                1 0   0
+0bd0 KBFiltr.exe               1 0   0
+0b64 WDC.exe                   1 0   0
+0c50 ETDCtrlHelper.exe         1 61  9   above normal
+0cf8 ETDGesture.exe            1 43  13  above normal
+0d88 SearchIndexer.exe         0 0   0
+0e98 CCC.exe                   1 47  44  normal
+1014 PresentationFontCache.exe 0 0   0
+10e0 BCompare.exe              1 239 223 normal       G:\soft\compare
+1294 mscorsvw.exe              0 0   0
+12b4 mscorsvw.exe              0 0   0
+12d4 svchost.exe               0 0   0
+1348 LMS.exe                   0 0   0
+1374 sppsvc.exe                0 0   0
+1394 svchost.exe               0 0   0
+1068 WmiPrvSE.exe              0 0   0
+1228 SearchProtocolHost.exe    0 0   0
+063c SearchFilterHost.exe      0 0   0   idle
+0e18 LogonUI.exe               1 0   0
+
+hardware:
++ Batteries
+  - Microsoft AC Adapter
+  - Microsoft ACPI-Compliant Control Method Battery
+  - Microsoft Composite Battery
++ Computer
+  - ACPI x64-based PC
++ Disk drives
+  - ST9750420AS ATA Device
++ Display adapters
+  - AMD Radeon HD 6730M (driver 8.930.0.0)
++ DVD/CD-ROM drives
+  - MATSHITA DVD-RAM UJ8B0AW ATA Device
++ Human Interface Devices
+  - HID-compliant device
+  - HID-compliant device
+  - HID-compliant device
+  - Rp Wireless Device (driver 1.3.2.0)
+  - Rp Wireless Device (driver 1.3.2.0)
+  - 符合 HID 标准的用户控制设备
++ IDE ATA/ATAPI controllers
+  - ATA Channel 0
+  - ATA Channel 2
+  - Intel(R) 6 Series/C200 Series Chipset Family 6 Port SATA AHCI Controller - 1C03 (driver 9.2.0.1032)
++ Imaging devices
+  - ASUS USB2.0 WebCam
++ Keyboards
+  - HID Keyboard Device
+  - Keyboard Device Filter (driver 1.0.0.3)
++ Mice and other pointing devices
+  - ELAN PS/2 Port Smart-Pad (driver 11.5.0.9)
+  - HID-compliant mouse
++ Monitors
+  - 通用即插即用监视器
++ Network adapters
+  - Atheros AR9285 Wireless Network Adapter
+  - Realtek PCIe GBE Family Controller (driver 7.67.1226.2012)
++ Processors
+  - Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz
+  - Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz
+  - Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz
+  - Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz
++ Sound, video and game controllers
+  - AMD High Definition Audio Device (driver 7.12.0.7704)
+  - Realtek High Definition Audio (driver 6.0.1.6818)
++ Storage volume shadow copies
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
+  - 通用卷影复制
++ System devices
+  - 2nd Generation Intel(R) Core(TM) Processor Family DRAM Controller - 0104 (driver 9.2.0.1032)
+  - ACPI Fixed Feature Button
+  - ACPI Lid
+  - ACPI Sleep Button
+  - ACPI Thermal Zone
+  - Direct memory access controller
+  - High Definition Audio 控制器
+  - High Definition Audio 控制器
+  - High precision event timer
+  - Intel(R) 6 Series/C200 Series Chipset Family PCI Express Root Port 1 - 1C10 (driver 9.2.0.1032)
+  - Intel(R) 6 Series/C200 Series Chipset Family PCI Express Root Port 2 - 1C12 (driver 9.2.0.1032)
+  - Intel(R) 6 Series/C200 Series Chipset Family PCI Express Root Port 4 - 1C16 (driver 9.2.0.1032)
+  - Intel(R) 6 Series/C200 Series Chipset Family PCI Express Root Port 6 - 1C1A (driver 9.2.0.1032)
+  - Intel(R) 6 Series/C200 Series Chipset Family SMBus Controller - 1C22 (driver 9.2.0.1032)
+  - Intel(R) 82802 Firmware Hub Device
+  - Intel(R) HM65 Express Chipset Family LPC Interface Controller - 1C49 (driver 9.2.0.1032)
+  - Intel(R) Management Engine Interface  (driver 9.0.0.1287)
+  - Microsoft ACPI-Compliant Embedded Controller
+  - Microsoft ACPI-Compliant System
+  - Microsoft System Management BIOS Driver
+  - Microsoft Windows Management Interface for ACPI
+  - Microsoft 虚拟驱动器枚举器驱动程序
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Motherboard resources
+  - Numeric data processor
+  - PCI bus
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - Remote Desktop Device Redirector Bus
+  - System board
+  - System CMOS/real time clock
+  - System timer
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - UMBus Enumerator
+  - UMBus Root Bus Enumerator
+  - Volume Manager
+  - Xeon E3-1200/2nd Generation Intel(R) Core(TM) Processor Family PCI Express Root Port - 0101 (driver 9.2.0.1032)
+  - 复合总线枚举器
+  - 文件作为卷驱动程序
++ Universal Serial Bus controllers
+  - ASMedia XHCI Controller (driver 1.16.4.0)
+  - Generic USB Hub
+  - Generic USB Hub
+  - Intel(R) 6 Series/C200 Series Chipset Family USB Enhanced Host Controller - 1C26 (driver 9.2.0.1032)
+  - Intel(R) 6 Series/C200 Series Chipset Family USB Enhanced Host Controller - 1C2D (driver 9.2.0.1032)
+  - Realtek USB 2.0 Card Reader (driver 6.2.9200.39035)
+  - USB Composite Device
+  - USB Composite Device
+  - USB Root Hub (driver 1.16.4.0)
+  - USB Root Hub
+  - USB Root Hub
+
+cpu registers:
+eax = 061bf3c8
+ebx = 00000000
+ecx = 00000000
+edx = 666e6f63
+esi = 027b3008
+edi = 0279a0a0
+eip = 00407f9a
+esp = 061bf36c
+ebp = 061bf384
+
+stack dump:
+061bf36c  c8 f3 1b 06 63 6f 6e 66 - 64 42 89 00 90 16 7a 02  ....confdB....z.
+061bf37c  a0 a0 79 02 00 00 00 00 - c8 f3 1b 06 85 fa 88 00  ..y.............
+061bf38c  c8 f3 1b 06 e0 f3 1b 06 - 00 00 00 00 b0 e9 ea 05  ................
+061bf39c  10 e7 88 00 20 80 a4 00 - e8 f3 1b 06 04 55 40 00  .............U@.
+061bf3ac  e0 f3 1b 06 00 00 00 00 - 68 f2 87 00 b0 e9 ea 05  ........h.......
+061bf3bc  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+061bf3cc  28 02 00 00 b0 e9 ea 05 - 4f 4e 40 00 00 00 00 00  (.......ON@.....
+061bf3dc  28 02 00 00 f8 f3 1b 06 - 1c ba a3 00 10 f4 1b 06  (...............
+061bf3ec  04 55 40 00 f8 f3 1b 06 - b0 e9 ea 05 2c f4 1b 06  .U@.........,...
+061bf3fc  29 a1 a3 00 50 46 fa 05 - 89 f2 87 00 50 46 fa 05  )...PF......PF..
+061bf40c  6a 6c 4a 00 e8 f4 1b 06 - 04 55 40 00 2c f4 1b 06  jlJ......U@.,...
+061bf41c  50 46 fa 05 b0 e9 ea 05 - 01 00 00 00 00 00 00 00  PF..............
+061bf42c  b0 e9 ea 05 ed 6c 4a 00 - 00 00 00 00 b0 e9 ea 05  .....lJ.........
+061bf43c  01 00 00 00 9c 92 4b 00 - b0 e9 ea 05 00 00 00 00  ......K.........
+061bf44c  e6 84 4b 00 02 00 00 00 - 00 00 00 00 b0 e9 ea 05  ..K.............
+061bf45c  00 00 00 00 29 27 4a 00 - b0 e9 ea 05 00 00 00 00  ....)'J.........
+061bf46c  24 73 8b 00 b0 e9 ea 05 - 00 00 00 00 47 1c 88 00  $s..........G...
+061bf47c  b0 e9 ea 05 00 00 00 00 - 5d 9c a3 00 b0 e9 ea 05  ........].......
+061bf48c  01 00 00 00 56 6a a4 00 - 50 46 fa 05 01 46 fa 05  ....Vj..PF...F..
+061bf49c  bb 4c 40 00 a1 ed 87 00 - 08 f5 1b 06 50 46 fa 05  .L@.........PF..
+
+disassembling:
+00407f94     public System.@IntfCopy:         ; function entry point
+00407f94 581           edx, edx
+00407f96               loc_407fb1
+00407f98               edx
+00407f99               eax
+00407f9a     >         eax, [edx]
+00407f9c               edx
+00407f9d               dword ptr [eax+4]
+00407fa0               eax
+00407fa1               ecx, [eax]
+00407fa3               dword ptr [eax]
+00407fa5               ecx, ecx
+00407fa7               loc_407faa
+00407fa9
+00407faa               eax, [ecx]
+00407fac               ecx
+[...]
+
